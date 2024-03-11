@@ -3,23 +3,23 @@ const HEAD = (
 );
 
 const BODY = (
-  <div className="w-[10px] h-[100px] rounded-full border-[5px] border-solid border-black absolute top-[105px] right-[0]" />
+  <div className="w-[10px] h-[100px] rounded-full border-[6px] border-solid border-black absolute top-[105px] right-[0]" />
 );
 
 const RIGHT_ARM = (
-  <div className="w-[100px] h-[9px] rounded-full border-[5px] border-solid border-black absolute top-[140px] right-[-85px] rotate-[-30deg]" />
+  <div className="w-[100px] h-[9px] rounded-full border-[6px] border-solid border-black absolute top-[140px] right-[-85px] rotate-[-30deg]" />
 );
 
 const LEFT_ARM = (
-  <div className="w-[100px] h-[9px] rounded-full border-[5px] border-solid border-black absolute top-[140px] right-[-2px] rotate-[30deg]" />
+  <div className="w-[100px] h-[9px] rounded-full border-[6px] border-solid border-black absolute top-[140px] right-[-2px] rotate-[30deg]" />
 );
 
 const RIGHT_LEG = (
-  <div className="w-[100px] h-[9px] rounded-full border-[5px] border-solid border-black absolute top-[237px] left-[288px] right-[-90px] rotate-[60deg]" />
+  <div className="w-[100px] h-[9px] rounded-full border-[6px] border-solid border-black absolute top-[237px] left-[288px] right-[-90px] rotate-[60deg]" />
 );
 
 const LEFT_LEG = (
-  <div className="w-[100px] h-[9px] rounded-full border-[5px] border-solid border-black absolute top-[237px] left-[242px] right-[0px] rotate-[-60deg]" />
+  <div className="w-[100px] h-[9px] rounded-full border-[6px] border-solid border-black absolute top-[237px] left-[242px] right-[0px] rotate-[-60deg]" />
 );
 
 const HangmanDrawing = () => {

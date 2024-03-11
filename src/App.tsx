@@ -16,7 +16,9 @@ function App() {
       <div className="text-3xl text-center">Lose Win</div>
       <HangmanDrawing/>
       <HangmanWord/>
+      <div className="self-stretch">
       <Keyboard/>
+      </div>
 
     </div>
   );
