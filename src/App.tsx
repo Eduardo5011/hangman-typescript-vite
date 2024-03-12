@@ -15,7 +15,7 @@ function App() {
     (letter) => !wordToGuess.includes(letter)
   );
 
-  const addGUessedLetter = useCallback(
+  const addGuessedLetter = useCallback(
     (letter: string) => {
       if (guessedLetters.includes(letter)) return;
 
